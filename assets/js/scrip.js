@@ -1,16 +1,14 @@
-// document.getElementById('message').addEventListener('click', function(event) {
-//     event.preventDefault(); // Evita o comportamento padrão do botão enviar (submit)
+document.getElementById('message').addEventListener('click', function(event) {
+    event.preventDefault(); // Evita o comportamento padrão do botão enviar (submit)
 
-//     // Oculta o formulário
-//     var myForm = document.getElementById('my_form');
-//     myForm.style.display = 'none';
-//     myForm.style.opacity = '0';
-//     myForm.style.visibility = 'hidden';
+    // Oculta o formulário
+    document.getElementById('my_form').style.display = 'none';
 
-//     // Exibe a mensagem de sucesso
-//     document.querySelector('.show_message').style.display = 'block';
-//     sessionStorage.setItem('formHidden', 'true');
-// });
+
+    // Exibe a mensagem de sucesso
+    document.querySelector('.show_message').style.display = 'block';
+
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     // Verificar se o valor indicando que o formulário deve permanecer oculto está presente no sessionStorage
