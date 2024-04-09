@@ -7,3 +7,13 @@ document.getElementById('message').addEventListener('click', function(event) {
     // Exibe a mensagem de sucesso
     document.querySelector('.show_message').style.display = 'block';
 });
+
+const opcoes = document.querySelectorAll('.option');
+
+opcoes.forEach(opcao => {
+    opcao.addEventListener('click', () => {
+        opcoes.forEach(o => o.classList.remove('selecionado'));
+        console.log("teste")
+        opcao.classList.add('selecionado');
+    });
+});

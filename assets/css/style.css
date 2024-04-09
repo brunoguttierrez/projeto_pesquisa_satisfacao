@@ -140,16 +140,20 @@ button {
     transition: transform 0.2s ease;
 }
 
-#option1:hover, 
-#option2:hover,
-#option3:hover,
-#option4:hover,
-#option5:hover,
-#option6:hover, 
-#option7:hover,
-#option8:hover,
-#option9:hover,
-#option10:hover {
+.option:hover, 
+.option:hover,
+.option:hover,
+.option:hover,
+.option:hover,
+.option:hover, 
+.option:hover,
+.option:hover,
+.option:hover,
+.option:hover {
+    transform: scale(1);
+}
+
+.option.selecionado  {
     transform: scale(1.2);
 }
 
