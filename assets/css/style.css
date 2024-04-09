@@ -1,0 +1,277 @@
+body {
+    background-color: #D0DDE7;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.border_header {
+    width: 900px;
+    margin: auto;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #fff, #03187D) 1;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    justify-content: center;
+}
+
+.questions {
+    width: 800px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+input,
+input[type="radio"],
+textarea {
+    margin-top: 15px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+button {
+    background-color: #031834;
+    padding: 10px;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    flex: 1;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.options div {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#option1 {
+    border: 2px solid #F31E27;
+    background-color: #F31E27 ;
+    transition: transform 0.2s ease;
+}
+
+#option2 {
+    border: 2px solid #FE3431;
+    background-color: #FE3431;
+    transition: transform 0.2s ease;
+}
+
+#option3 {
+    border: 2px solid #FD8D17;
+    background-color: #FD8D17;
+    transition: transform 0.2s ease;
+}
+
+
+#option4 {
+    border: 2px solid #FF9D2D;
+    background-color: #FF9D2D;
+    transition: transform 0.2s ease;
+}
+
+#option5 {
+    border: 2px solid #FDCD33;
+    background-color: #FDCD33;
+    transition: transform 0.2s ease;
+}
+
+#option6 {
+    border: 2px solid #FDC40C;
+    background-color: #FDC40C;
+    transition: transform 0.2s ease;
+}
+
+#option7 {
+    border: 2px solid #97CC34;
+    background-color: #97CC34;
+    transition: transform 0.2s ease;
+}
+
+#option8 {
+    border: 2px solid #87B42D;
+    background-color: #87B42D;
+    transition: transform 0.2s ease;
+}
+
+#option9 {
+    border: 2px solid #42C041;
+    background-color: #42C041;
+    transition: transform 0.2s ease;
+}
+
+#option10 {
+    border: 2px solid #329A30;
+    background-color: #329A30;
+    transition: transform 0.2s ease;
+}
+
+#option1:hover, 
+#option2:hover,
+#option3:hover,
+#option4:hover,
+#option5:hover,
+#option6:hover, 
+#option7:hover,
+#option8:hover,
+#option9:hover,
+#option10:hover {
+    transform: scale(1.2);
+}
+
+.show_message {
+    display: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 908px) and (min-width: 806px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .border_header {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 807px) and (min-width: 717px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .border_header {
+        width: 700px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 718px) and (min-width: 615px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .border_header {
+        width: 520px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    
+    textarea {
+        width: 320px;
+    }
+}
+
+
+@media screen and (max-width: 616px)  and (min-width: 416px){
+    .container {
+        max-width: 300px;
+    }
+
+    .questions {
+        width: 400px;
+    }
+
+    .border_header {
+        width: 400px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    
+    textarea {
+        width: 300px;
+    }
+
+    .options div {
+        height: 20px;
+        width: 20px;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 417px){
+    .container {
+        max-width: 250px;
+    }
+
+    .questions {
+        width: 250px;
+    }
+
+    .border_header {
+        width: 320px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    
+    textarea {
+        width: 250px;
+    }
+
+    .options div {
+        height: 20px;
+        width: 20px;
+        margin: 2px;
+    }
+
+    button {
+        padding: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+}
+
+
+
+
+
+
