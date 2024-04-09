@@ -12,8 +12,8 @@ const opcoes = document.querySelectorAll('.option');
 
 opcoes.forEach(opcao => {
     opcao.addEventListener('click', () => {
+        event.preventDefault()
         opcoes.forEach(o => o.classList.remove('selecionado'));
-        console.log("teste")
         opcao.classList.add('selecionado');
     });
 });
